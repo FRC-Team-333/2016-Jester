@@ -1,0 +1,76 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Joystick [Y]:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="363"/>
+	</widget>
+	<widget field="Shooter RPM:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="5" y="102"/>
+	</widget>
+	<widget field="Shooter Count:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="81"/>
+	</widget>
+	<widget field="Gyro Heading:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="-1" y="18"/>
+	</widget>
+	<widget field="[Teleop-Config] Transmission Mode:" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="128" y="144"/>
+	</widget>
+	<widget field="[Auto-Config] Auto Mode:" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="4" y="139"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="0" y="220"/>
+		<width>289</width>
+		<property name="Text" value="Config"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="1" y="134"/>
+		<width>268</width>
+		<property name="Text" value="Modes"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="2" y="1"/>
+		<width>285</width>
+		<property name="Text" value="Robot Status"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="292" y="3"/>
+		<width>908</width>
+		<height>686</height>
+		<property name="Degrees Rotation" value="180"/>
+		<property name="Camera Choice" value=""/>
+	</static-widget>
+	<widget field="[Auto-Config] Side Turn Angle (deg) =" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="258"/>
+	</widget>
+	<widget field="[Auto-Config] Center Distance (in) =" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="237"/>
+	</widget>
+	<widget field="Transmission:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="60"/>
+	</widget>
+	<widget field="[Auto-Config] Gyro Multiplier =" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="319"/>
+	</widget>
+	<widget field="Manual Shooter Speed: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="342"/>
+	</widget>
+	<widget field="[Auto-Config] Side Final Distance (in) =" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="300"/>
+	</widget>
+	<widget field="Gear Holder:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="39"/>
+	</widget>
+	<widget field="[Auto-Config] Side Initial Distance (in) =" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="279"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="Auto Mode:"/>
+	<hidden field="Current Offset"/>
+	<hidden field="Native Angle"/>
+	<hidden field="Heading:"/>
+	<hidden field="Count:"/>
+	<hidden field="RPM:"/>
+</xml>
